@@ -1,24 +1,17 @@
 
 package pages;
 
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import io.qameta.allure.Step;
-
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
-
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.qameta.allure.Step;
 
 public class BasePage {
 
@@ -126,33 +119,6 @@ public class BasePage {
 
 	}
 	
-	public void takeScreenShot() {
-		try {
-
-			TakesScreenshot scrShot = ((TakesScreenshot) driver);
-			File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
-			File desFile = new File(System.getProperty("user.dir") + File.separator + "failScreenShot.png");
-			FileUtils.copyFile(srcFile, desFile);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public String getScreenshot(String screenshotName) {
-		String destination = "";
-		try {
-			String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-			TakesScreenshot ts = (TakesScreenshot) driver;
-			File source = ts.getScreenshotAs(OutputType.FILE);
-			destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
-			File finalDestination = new File(destination);
-			FileUtils.copyFile(source, finalDestination);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return destination;
-	}
+	
 
 }

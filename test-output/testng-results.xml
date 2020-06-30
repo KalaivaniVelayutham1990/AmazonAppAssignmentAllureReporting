@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="101206" started-at="2020-06-30T02:51:43Z" finished-at="2020-06-30T02:53:24Z">
+  <suite name="Suite" duration-ms="102620" started-at="2020-06-30T04:14:59Z" finished-at="2020-06-30T04:16:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="101206" started-at="2020-06-30T02:51:43Z" finished-at="2020-06-30T02:53:24Z">
+    <test name="Test" duration-ms="102620" started-at="2020-06-30T04:14:59Z" finished-at="2020-06-30T04:16:42Z">
       <class name="testScripts.AmazonSearchValidation">
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:testScripts.AmazonSearchValidation@546ccad7]" name="launchApp" is-config="true" duration-ms="29345" started-at="2020-06-29T20:51:43Z" finished-at="2020-06-29T20:52:12Z">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testScripts.AmazonSearchValidation@a8c1f44]" name="launchApp" is-config="true" duration-ms="31006" started-at="2020-06-29T22:14:59Z" finished-at="2020-06-29T22:15:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.AmazonSearchValidation@546ccad7]" name="setUp" is-config="true" duration-ms="12125" started-at="2020-06-29T20:52:12Z" finished-at="2020-06-29T20:52:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.AmazonSearchValidation@a8c1f44]" name="setUp" is-config="true" duration-ms="12653" started-at="2020-06-29T22:15:30Z" finished-at="2020-06-29T22:15:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tc_Search_001()[pri:0, instance:testScripts.AmazonSearchValidation@546ccad7]" name="tc_Search_001" duration-ms="57743" started-at="2020-06-29T20:52:25Z" finished-at="2020-06-29T20:53:22Z">
+        <test-method status="PASS" signature="tc_Search_001()[pri:0, instance:testScripts.AmazonSearchValidation@a8c1f44]" name="tc_Search_001" duration-ms="57071" started-at="2020-06-29T22:15:43Z" finished-at="2020-06-29T22:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_Search_001 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.AmazonSearchValidation@546ccad7]" name="tearDown" is-config="true" duration-ms="1774" started-at="2020-06-29T20:53:22Z" finished-at="2020-06-29T20:53:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.AmazonSearchValidation@a8c1f44]" name="tearDown" is-config="true" duration-ms="1771" started-at="2020-06-29T22:16:40Z" finished-at="2020-06-29T22:16:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
