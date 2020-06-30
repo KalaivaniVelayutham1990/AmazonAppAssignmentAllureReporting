@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="utilities.Generics"/>
+      <class name="pages.HomePages"/>
+      <class name="pages.ProductListingPage"/>
+      <class name="pages.ProductDescriptionPage"/>
+      <class name="testScripts.AmazonSearchValidation"/>
+      <class name="testScripts.BaseTest"/>
+      <class name="pages.BasePage"/>
+      <class name="utilities.TestListener"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
